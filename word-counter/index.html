@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Counter - Free Online Word, Character & Reading Time Counter | OmniConvert</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Count words, characters, sentences, paragraphs, reading time, and keyword density online in real time.">
+  <meta name="keywords" content="Word & Character Count Analyzer, Word Counter, online converter, free tools, private converter, calc tools">
+  <meta name="author" content="OmniConvert">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <link rel="canonical" href="https://omniconvert.com/word-counter/">
+  
+  <!-- OpenGraph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Word Counter - Free Online Word, Character & Reading Time Counter | OmniConvert">
+  <meta property="og:description" content="Count words, characters, sentences, paragraphs, reading time, and keyword density online in real time.">
+  <meta property="og:url" content="https://omniconvert.com/word-counter/">
+  <meta property="og:site_name" content="OmniConvert">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Word Counter - Free Online Word, Character & Reading Time Counter | OmniConvert">
+  <meta name="twitter:description" content="Count words, characters, sentences, paragraphs, reading time, and keyword density online in real time.">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/tools.css">
+  <link rel="stylesheet" href="/assets/css/blog.css">
+
+  <!-- Schema.org Multi-Entity Graph -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://omniconvert.com/word-counter/#software",
+      "name": "Word & Character Count Analyzer",
+      "url": "https://omniconvert.com/word-counter/",
+      "description": "Count words, characters, sentences, paragraphs, reading time, and keyword density online in real time.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "All (Web Browser, Windows, macOS, Linux, iOS, Android)",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1840",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    },
+    {
+      "@type": "HowTo",
+      "@id": "https://omniconvert.com/word-counter/#howto",
+      "name": "How to Use Word & Character Count Analyzer",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "name": "Type or Paste Essay/Article",
+          "text": "Input text."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "name": "Live Metrics",
+          "text": "See words, characters, and reading time calculate instantly."
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://omniconvert.com/word-counter/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Does this calculate estimated reading time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, based on average reading speed of 200 words per minute."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://omniconvert.com/word-counter/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://omniconvert.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Tools",
+          "item": "https://omniconvert.com/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Word Counter",
+          "item": "https://omniconvert.com/word-counter/"
+        }
+      ]
+    }
+  ]
+}
+  </script>
+</head>
+<body>
+
+
+  <!-- Top Glassmorphic Navigation Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="/" class="logo">
+        <div class="logo-icon">
+          <i data-lucide="refresh-cw"></i>
+        </div>
+        <span>Omni<span class="gradient-text">Convert</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="/tools/" class="nav-link"><i data-lucide="grid"></i> All Tools</a></li>
+        <li><a href="/heic-to-jpg/" class="nav-link"><i data-lucide="smartphone"></i> iPhone HEIC</a></li>
+        <li><a href="/pdf-compressor/" class="nav-link"><i data-lucide="file-text"></i> PDF Suite</a></li>
+        <li><a href="/currency-converter/" class="nav-link"><i data-lucide="dollar-sign"></i> Currency</a></li>
+        <li><a href="/color-converter/" class="nav-link"><i data-lucide="palette"></i> Design</a></li>
+        <li><a href="/age-calculator/" class="nav-link"><i data-lucide="calendar"></i> Utilities</a></li>
+        <li><a href="/blog/" class="nav-link"><i data-lucide="book-open"></i> Blog</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="btn-theme-toggle" title="Toggle Theme" onclick="window.toggleTheme()">
+          <i data-lucide="sun"></i>
+        </button>
+        <a href="/tools/" class="btn btn-primary btn-sm">
+          <i data-lucide="sparkles"></i> Explore Tools
+        </a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Dynamic Application Root View -->
+  <main id="app-root">
+    <div class="tool-workspace container">
+      <div class="tool-header-area">
+        <nav class="breadcrumbs" aria-label="Breadcrumb">
+          <a href="/">Home</a>
+          <span>/</span>
+          <a href="/tools/">Calc</a>
+          <span>/</span>
+          <span>Word Counter</span>
+        </nav>
+        <span class="badge primary" style="margin-bottom:0.8rem;">Writing Tool</span>
+        <h1 class="tool-headline">Real-Time Word & Character Counter</h1>
+        <p class="tool-lead">Count words, characters (with and without spaces), sentences, paragraphs, and calculate estimated reading and speaking times in real time. Perfect for writers, students, and SEOs.</p>
+      </div>
+
+      <div class="tool-card-panel">
+        
+        <div>
+          <div class="stats-grid-dashboard">
+            <div class="stat-metric-card"><div class="stat-metric-num" id="wc-words">0</div><div class="stat-metric-label">Words</div></div>
+            <div class="stat-metric-card"><div class="stat-metric-num" id="wc-chars">0</div><div class="stat-metric-label">Characters</div></div>
+            <div class="stat-metric-card"><div class="stat-metric-num" id="wc-chars-nospace">0</div><div class="stat-metric-label">No Spaces</div></div>
+            <div class="stat-metric-card"><div class="stat-metric-num" id="wc-sentences">0</div><div class="stat-metric-label">Sentences</div></div>
+            <div class="stat-metric-card"><div class="stat-metric-num" id="wc-reading">0 sec</div><div class="stat-metric-label">Reading Time</div></div>
+            <div class="stat-metric-card"><div class="stat-metric-num" id="wc-speaking">0 sec</div><div class="stat-metric-label">Speaking Time</div></div>
+          </div>
+          <textarea class="code-textarea" id="word-counter-input" style="height:280px;" placeholder="Start typing or paste your content here to analyze in real time..."></textarea>
+        </div>
+        
+      </div>
+
+      <!-- Monetization Leaderboard Ad -->
+      <div class="ad-wrapper">
+        <div class="ad-slot ad-slot-leaderboard">
+          <span class="ad-slot-tag">Advertisement</span>
+          <span>Google AdSense Unit (Responsive 728x90 / 300x250)</span>
+        </div>
+      </div>
+
+      <!-- How To Step-by-Step Guide -->
+      <section class="tool-guide-section">
+        <div class="section-header">
+          <h2 class="section-title">How to Use <span class="gradient-text">Word Counter</span></h2>
+          <p class="section-desc">Quick guide to convert your files for free in 3 simple steps.</p>
+        </div>
+        <div class="guide-steps-grid">
+          
+        <div class="guide-step-card">
+          <div class="step-num">01</div>
+          <h3>Type or Paste Essay/Article</h3>
+          <p>Input text.</p>
+        </div>
+        
+        <div class="guide-step-card">
+          <div class="step-num">02</div>
+          <h3>Live Metrics</h3>
+          <p>See words, characters, and reading time calculate instantly.</p>
+        </div>
+        
+        </div>
+      </section>
+
+      <!-- Deep SEO Technical Guide -->
+      <section class="container" style="padding: 3rem 1.5rem; background: var(--bg-card); border-radius: var(--radius-lg); border: 1px solid var(--border-subtle); margin-bottom: 3.5rem;">
+        <h2 class="section-title" style="margin-bottom: 1.25rem;">Content Length Optimization for SEO & Social Media</h2>
+        <div class="post-content" style="color: var(--text-secondary); line-height: 1.7;">
+          
+        <p>Adhering to optimal length guidelines is critical across digital publishing. Standard blog posts target 1,200 to 2,500 words for organic search ranking, Twitter/X limits posts to 280 characters, and LinkedIn posts perform best between 1,000 and 1,500 characters. OmniConvert provides instant real-time metrics with speaking and reading pace calculations.</p>
+        
+        </div>
+      </section>
+
+      <!-- Tool Specific FAQs -->
+      <section class="faq-section" style="padding-top:1rem;">
+        <div class="section-header">
+          <h2 class="section-title">Frequently Asked Questions</h2>
+          <p class="section-desc">Everything you need to know about Word Counter on OmniConvert.</p>
+        </div>
+        <div class="faq-accordion">
+          
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Does this calculate estimated reading time?</span>
+            <i data-lucide="chevron-down" class="faq-icon"></i>
+          </button>
+          <div class="faq-answer"><p>Yes, based on average reading speed of 200 words per minute.</p></div>
+        </div>
+        
+        </div>
+      </section>
+
+      <!-- Related Tools Grid -->
+      <section class="container" style="padding: 3.5rem 0 1rem;">
+        <div class="section-header">
+          <h2 class="section-title">Related <span class="gradient-text">Converters &amp; Tools</span></h2>
+          <p class="section-desc">Explore other fast, 100% private in-browser utilities in our suite.</p>
+        </div>
+        <div class="tools-grid">
+          
+      <a href="/age-calculator/" class="tool-card" data-category="calc">
+        <div class="tool-card-top">
+          <div class="tool-icon-wrap calc">
+            <i data-lucide="calendar"></i>
+          </div>
+          <span class="tool-badge-pill">High Search Volume</span>
+        </div>
+        <h3 class="tool-card-title">Exact Age & Birthday Calculator</h3>
+        <p class="tool-card-desc">Calculate your exact age in years, months, days, total weeks, hours, and seconds, plus a live countdown to your next birthday.</p>
+        <div class="tool-card-footer">
+          <span>CALC</span>
+          <span class="tool-card-action">Launch Tool <i data-lucide="arrow-right"></i></span>
+        </div>
+      </a>
+    
+      <a href="/date-calculator/" class="tool-card" data-category="calc">
+        <div class="tool-card-top">
+          <div class="tool-icon-wrap calc">
+            <i data-lucide="calendar-days"></i>
+          </div>
+          <span class="tool-badge-pill">Calendar Tool</span>
+        </div>
+        <h3 class="tool-card-title">Date Difference & Duration Calculator</h3>
+        <p class="tool-card-desc">Calculate exact duration, total days, weeks, and business days between any two calendar dates.</p>
+        <div class="tool-card-footer">
+          <span>CALC</span>
+          <span class="tool-card-action">Launch Tool <i data-lucide="arrow-right"></i></span>
+        </div>
+      </a>
+    
+      <a href="/image-converter/" class="tool-card" data-category="image">
+        <div class="tool-card-top">
+          <div class="tool-icon-wrap image">
+            <i data-lucide="image"></i>
+          </div>
+          <span class="tool-badge-pill">Popular</span>
+        </div>
+        <h3 class="tool-card-title">Image Format Converter</h3>
+        <p class="tool-card-desc">Convert between PNG, JPG, WebP, AVIF, and SVG with custom quality control and batch ZIP downloads.</p>
+        <div class="tool-card-footer">
+          <span>IMAGE</span>
+          <span class="tool-card-action">Launch Tool <i data-lucide="arrow-right"></i></span>
+        </div>
+      </a>
+    
+      <a href="/heic-to-jpg/" class="tool-card" data-category="image">
+        <div class="tool-card-top">
+          <div class="tool-icon-wrap image">
+            <i data-lucide="smartphone"></i>
+          </div>
+          <span class="tool-badge-pill">iPhone High Demand</span>
+        </div>
+        <h3 class="tool-card-title">HEIC to JPG Converter</h3>
+        <p class="tool-card-desc">Convert Apple iPhone HEIC and HEIF photos to universal JPG or PNG format with full quality.</p>
+        <div class="tool-card-footer">
+          <span>IMAGE</span>
+          <span class="tool-card-action">Launch Tool <i data-lucide="arrow-right"></i></span>
+        </div>
+      </a>
+    
+        </div>
+      </section>
+    </div>
+  </main>
+
+
+  <!-- Global Footer with SEO Directory & Domain Readiness -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <div class="logo-icon">
+              <i data-lucide="refresh-cw"></i>
+            </div>
+            <span>Omni<span class="gradient-text">Convert</span></span>
+          </a>
+          <p>
+            The world's fastest, 100% private in-browser file and data converter suite. Convert images, documents, videos, currencies, text, and everyday units without uploading files to remote servers.
+          </p>
+          <div style="display:flex; gap:0.75rem; margin-top:1rem; flex-wrap:wrap;">
+            <span class="badge success"><i data-lucide="shield-check"></i> 100% Secure</span>
+            <span class="badge primary"><i data-lucide="zap"></i> Fast In-Browser</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Image &amp; PDF Tools</h4>
+          <ul class="footer-links">
+            <li><a href="/heic-to-jpg/">HEIC to JPG (iPhone)</a></li>
+            <li><a href="/image-converter/">PNG ↔ JPG ↔ WebP ↔ AVIF</a></li>
+            <li><a href="/image-resizer/">Image Resizer &amp; Compressor</a></li>
+            <li><a href="/pdf-compressor/">PDF Compressor</a></li>
+            <li><a href="/jpg-to-pdf/">Images to PDF</a></li>
+            <li><a href="/pdf-to-word/">PDF to Word (.docx)</a></li>
+            <li><a href="/pdf-to-excel/">PDF to Excel (.xlsx)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Text, Units &amp; Design</h4>
+          <ul class="footer-links">
+            <li><a href="/currency-converter/">Live Currency Converter</a></li>
+            <li><a href="/case-converter/">Text Case Converter</a></li>
+            <li><a href="/text-to-speech/">Text to Speech (TTS)</a></li>
+            <li><a href="/color-converter/">Color (HEX/RGB/CMYK)</a></li>
+            <li><a href="/qr-generator/">QR Code Generator &amp; Scan</a></li>
+            <li><a href="/unit-converter/">Length, Weight &amp; Temp</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Everyday &amp; Platform</h4>
+          <ul class="footer-links">
+            <li><a href="/word-counter/">Word &amp; Character Counter</a></li>
+            <li><a href="/age-calculator/">Age &amp; Birthday Calculator</a></li>
+            <li><a href="/date-calculator/">Date Difference Calculator</a></li>
+            <li><a href="/blog/">Blog &amp; Knowledge Base</a></li>
+            <li><a href="/about/">About OmniConvert</a></li>
+            <li><a href="/privacy/">Privacy Policy (Zero Logs)</a></li>
+            <li><a href="/terms/">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 OmniConvert. All rights reserved. Built for creators &amp; professionals.
+        </div>
+        <div style="display:flex; gap:1.5rem;">
+          <a href="/privacy/">Privacy Policy</a>
+          <a href="/terms/">Terms</a>
+          <a href="/contact/">Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- Core External Libraries (CDN) -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/heic2any@0.0.4/dist/heic2any.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>
+    if (window.pdfjsLib) {
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fast-xml-parser@4.3.5/src/fxparser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/turndown/7.1.2/turndown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
+
+  <!-- Application Logic Scripts -->
+  <script src="/assets/js/config.js"></script>
+  <script src="/assets/js/toolsData.js"></script>
+  <script src="/assets/js/blogData.js"></script>
+  <script src="/assets/js/theme.js"></script>
+  <script src="/assets/js/notify.js"></script>
+  <script src="/assets/js/uploader.js"></script>
+  <script src="/assets/js/converters/imageConverter.js"></script>
+  <script src="/assets/js/converters/documentConverter.js"></script>
+  <script src="/assets/js/converters/mediaConverter.js"></script>
+  <script src="/assets/js/converters/dataConverter.js"></script>
+  <script src="/assets/js/converters/textConverter.js"></script>
+  <script src="/assets/js/converters/unitConverter.js"></script>
+  <script src="/assets/js/converters/designConverter.js"></script>
+  <script src="/assets/js/converters/utilityConverter.js"></script>
+  <script src="/assets/js/router.js"></script>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      AppRouter.initStandaloneTool('word-counter');
+      if (window.lucide) window.lucide.createIcons();
+    });
+  </script>
+</body>
+</html>

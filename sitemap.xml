@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://omniconvert.com/</loc><lastmod>2026-10-18</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>
+  <url><loc>https://omniconvert.com/tools/</loc><lastmod>2026-10-18</lastmod><changefreq>daily</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/blog/</loc><lastmod>2026-10-18</lastmod><changefreq>daily</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/about/</loc><lastmod>2026-10-18</lastmod><priority>0.5</priority></url>
+  <url><loc>https://omniconvert.com/privacy/</loc><lastmod>2026-10-18</lastmod><priority>0.5</priority></url>
+  <url><loc>https://omniconvert.com/terms/</loc><lastmod>2026-10-18</lastmod><priority>0.5</priority></url>
+  <url><loc>https://omniconvert.com/contact/</loc><lastmod>2026-10-18</lastmod><priority>0.5</priority></url>
+
+  <!-- 33 Dedicated Converter Tools -->
+  <url><loc>https://omniconvert.com/image-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/heic-to-jpg/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/svg-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/image-resizer/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/pdf-to-jpg/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/jpg-to-pdf/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/pdf-compressor/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/pdf-to-word/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/word-to-pdf/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/pdf-to-excel/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/excel-to-pdf/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/pdf-to-ppt/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/mp4-to-mp3/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/mov-to-mp4/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/video-compressor/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/markdown-html/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/case-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/text-to-speech/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/base64-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/url-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/currency-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/unit-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/timezone-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/data-storage-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/color-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/font-converter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/qr-generator/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/word-counter/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/age-calculator/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://omniconvert.com/date-calculator/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/csv-excel/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/csv-json/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+  <url><loc>https://omniconvert.com/json-xml/</loc><lastmod>2026-10-18</lastmod><changefreq>weekly</changefreq><priority>0.90</priority></url>
+
+  <!-- Blog Guides & Tutorials -->
+  <url><loc>https://omniconvert.com/blog/how-to-convert-heic-to-jpg-iphone/</loc><lastmod>2026-10-18</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://omniconvert.com/blog/webp-vs-avif-vs-png-jpg-comparison/</loc><lastmod>2026-10-18</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://omniconvert.com/blog/how-to-extract-tables-pdf-to-excel/</loc><lastmod>2026-10-18</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://omniconvert.com/blog/video-compression-guide-web-discord-email/</loc><lastmod>2026-10-18</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+  <url><loc>https://omniconvert.com/blog/csv-json-xml-data-guide/</loc><lastmod>2026-10-18</lastmod><changefreq>monthly</changefreq><priority>0.80</priority></url>
+</urlset>
